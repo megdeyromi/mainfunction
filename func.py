@@ -10,9 +10,9 @@ import json
 
 from fdk import response
 #from langchain_community.llms import Cohere #doesnotwork
-#from langchain_community.embeddings import CohereEmbeddings #doesnotwork
+from langchain_community.embeddings import CohereEmbeddings #doesnotwork
 #import CohereEmbeddings #doesnotwork
-from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_community.embeddings import SentenceTransformerEmbeddings #works
 #import os #doesnotwork
 #from langchain.text_splitter import RecursiveCharacterTextSplitter
 #from langchain.retrievers import ContextualCompressionRetriever

@@ -9,7 +9,7 @@ import io
 import json
 
 from fdk import response
-from langchain_community.llms import Cohere
+#from langchain_community.llms import Cohere
 #from langchain_community.embeddings import CohereEmbeddings
 #from langchain_community.embeddings import SentenceTransformerEmbeddings
 #import os
@@ -19,7 +19,7 @@ from langchain_community.llms import Cohere
 #from langchain_community.vectorstores import Chroma
 ##import chromadb
 ##from chromadb.config import Settings
-from pprint import pprint
+#from pprint import pprint
 import cohere
 import time
 

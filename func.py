@@ -11,16 +11,16 @@ import json
 from fdk import response
 #from langchain_community.llms import Cohere #doesnotwork
 #from langchain_community.embeddings import CohereEmbeddings #doesnotwork
-import CohereEmbeddings
+#import CohereEmbeddings #doesnotwork
 #from langchain_community.embeddings import SentenceTransformerEmbeddings
 #import os #doesnotwork
 #from langchain.text_splitter import RecursiveCharacterTextSplitter
 #from langchain.retrievers import ContextualCompressionRetriever
 #from langchain.retrievers.document_compressors import LLMChainExtractor
 #from langchain_community.vectorstores import Chroma
-#import chromadb
-##from chromadb.config import Settings
-#from pprint import pprint
+#import chromadb #doesnotwork
+#from chromadb.config import Settings #doesnotwork
+from pprint import pprint
 import cohere #works
 import time #works
 

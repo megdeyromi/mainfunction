@@ -12,7 +12,7 @@ from fdk import response
 #from langchain_community.llms import Cohere #doesnotwork
 #from langchain_community.embeddings import CohereEmbeddings #doesnotwork
 #import CohereEmbeddings #doesnotwork
-#from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_community.embeddings import SentenceTransformerEmbeddings
 #import os #doesnotwork
 #from langchain.text_splitter import RecursiveCharacterTextSplitter
 #from langchain.retrievers import ContextualCompressionRetriever
@@ -20,7 +20,7 @@ from fdk import response
 #from langchain_community.vectorstores import Chroma
 #import chromadb #doesnotwork
 #from chromadb.config import Settings #doesnotwork
-from pprint import pprint
+from pprint import pprint #works
 import cohere #works
 import time #works
 

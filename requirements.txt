@@ -1,0 +1,4 @@
+fdk
+cohere
+chromadb
+langchain_community

@@ -17,7 +17,7 @@ from fdk import response
 #from langchain.retrievers import ContextualCompressionRetriever
 #from langchain.retrievers.document_compressors import LLMChainExtractor
 #from langchain_community.vectorstores import Chroma
-##import chromadb
+import chromadb
 ##from chromadb.config import Settings
 #from pprint import pprint
 import cohere

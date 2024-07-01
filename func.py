@@ -9,10 +9,11 @@ import io
 import json
 
 from fdk import response
-#from langchain_community.llms import Cohere
-#from langchain_community.embeddings import CohereEmbeddings
+#from langchain_community.llms import Cohere #doesnotwork
+#from langchain_community.embeddings import CohereEmbeddings #doesnotwork
+import CohereEmbeddings
 #from langchain_community.embeddings import SentenceTransformerEmbeddings
-import os
+#import os #doesnotwork
 #from langchain.text_splitter import RecursiveCharacterTextSplitter
 #from langchain.retrievers import ContextualCompressionRetriever
 #from langchain.retrievers.document_compressors import LLMChainExtractor
@@ -20,8 +21,8 @@ import os
 #import chromadb
 ##from chromadb.config import Settings
 #from pprint import pprint
-import cohere
-import time
+import cohere #works
+import time #works
 
 def handler(ctx, data: io.BytesIO=None):
     print("Entering Python Hello World handler", flush=True)

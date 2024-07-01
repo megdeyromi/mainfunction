@@ -16,7 +16,7 @@ import os
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import LLMChainExtractor
-from langchain_community.vectorstores import Chroma
+#from langchain_community.vectorstores import Chroma
 ##import chromadb
 ##from chromadb.config import Settings
 from pprint import pprint
